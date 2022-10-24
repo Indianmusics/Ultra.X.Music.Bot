@@ -22,7 +22,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001880824438"))
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5152941389").split()))
 
-MONGO_URL = os.environ.get("MONGO_URL", "")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Ubot:ubot123@cluster0.nkktagg.mongodb.net/?retryWrites=true&w=majority")
 
 OWNER_NAME = getenv("OWNER_NAME", "Rajanmusicxd")
 
